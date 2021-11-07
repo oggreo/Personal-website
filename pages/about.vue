@@ -1,11 +1,11 @@
 <template>
   <div>
     <FollowCursor />
-    <div class="px-10 pb-20 w-full h-screen md:h-auto bg-vbg shadow grid grid-cols-1 md:grid-cols-5">
+    <div class="px-10 pb-20 w-full h-full md:h-auto bg-vbg shadow grid grid-cols-1 md:grid-cols-5">
       <div class="md:col-start-2 md:col-end-5 grid grid-cols-1 md:grid-cols-3">
         <nuxt-img
           class="col-start-1 mx-auto"
-          src="/me.png"
+          src="https://res.cloudinary.com/dk5s8ulry/image/upload/v1636220110/me_hhq0d9.png"
           width="250"
         />
         <div class="col-start-1 md:col-start-2 md:col-span-2 grid grid-rows-2">
@@ -18,7 +18,7 @@
         </div>
       </div>
       <!--  Work experience   -->
-      <div class="md:mt-20 md:col-start-2 md:col-end-5 grid grid-cols-1 md:grid-cols-3">
+      <div class="mt-10 md:mt-20 md:col-start-2 md:col-end-5 grid grid-cols-1 md:grid-cols-3">
         <div class="my-auto md:col-start-1 md:col-span-2 text-2xl md:text-4xl font-black text-vgreen">
           Work experience
           <FontAwesomeIcon
@@ -27,7 +27,7 @@
             :style="{ 'font-size': '40px', 'color': 'white' }"
           />
         </div>
-        <div class="md:mt-10 col-start-1 col-span-3 grid grid-cols-1 md:grid-cols-6">
+        <div class="mt-10 col-start-1 col-span-3 grid grid-cols-1 md:grid-cols-6">
           <div class="col-span-6 flex justify-start">
             <FontAwesomeIcon
               class="my-auto md:col-start-1"
@@ -103,7 +103,7 @@
         </div>
       </div>
       <!--  Education   -->
-      <div class="md:mt-20 md:col-start-2 md:col-end-5 grid grid-cols-1 md:grid-cols-3">
+      <div class="mt-10 md:mt-20 md:col-start-2 md:col-end-5 grid grid-cols-1 md:grid-cols-3">
         <div class="my-auto md:col-start-1 md:col-span-2 text-2xl md:text-4xl font-black text-vgreen">
           Education
           <FontAwesomeIcon
@@ -112,7 +112,7 @@
             :style="{ 'font-size': '40px', 'color': 'white' }"
           />
         </div>
-        <div class="md:mt-10 col-start-1 col-span-3 grid grid-cols-1 md:grid-cols-6">
+        <div class="mt-10 col-start-1 col-span-3 grid grid-cols-1 md:grid-cols-6">
           <div class="col-span-6 flex justify-start">
             <FontAwesomeIcon
               class="my-auto md:col-start-1"

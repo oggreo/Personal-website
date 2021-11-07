@@ -1,7 +1,5 @@
-import { defineNuxtConfig } from '@nuxt/bridge'
 
-export default defineNuxtConfig({
-  bridge: false,
+export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'reo-ogusu',
@@ -62,4 +60,4 @@ export default defineNuxtConfig({
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
-})
+}

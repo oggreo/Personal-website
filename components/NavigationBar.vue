@@ -1,12 +1,15 @@
 <template>
   <nav class="w-full bg-vbg shadow">
-    <div class="container px-6 h-16 flex justify-between items-center lg:items-stretch mx-auto">
+    <div
+      class="container px-6 h-16 flex justify-between items-center lg:items-stretch mx-auto"
+    >
       <div class="flex items-center">
         <div class="mr-10 flex items-center">
           <nuxt-img
             src="https://res.cloudinary.com/dk5s8ulry/image/upload/v1636220110/me_hhq0d9.png"
             width="60"
             quality="100"
+            :class="spin ? 'animate-spin': ''"
           />
           <!--          <svg-->
           <!--            id="logo"-->
@@ -25,8 +28,13 @@
           <!--              />-->
           <!--            </g>-->
           <!--          </svg>-->
-          <h3 class="text-base text-white font-bold tracking-normal leading-tight ml-3 hidden lg:block">
-            Reo Ogusu
+          <h3
+            class="text-base text-white font-bold tracking-normal leading-tight ml-3 hidden lg:block"
+            @click="spin = !spin"
+          >
+            <a href="#">
+              Reo Ogusu
+            </a>
           </h3>
         </div>
         <ul class="hidden xl:flex items-center h-full">
@@ -305,6 +313,7 @@ export default {
   name: 'BlackLeftAlignedWithIcons',
   data () {
     return {
+      spin: false,
       profilePhoto: 'https://tuk-cdn.s3.amazonaws.com/assets/components/horizontal_navigation/hn_1.png',
       isMainClicked: true,
       isAboutClicked: false,
