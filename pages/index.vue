@@ -73,10 +73,10 @@
         </div>
         <!--   Projects     -->
         <div class="mt-20">
-          <div class="mt-20">
-            <div class="text-4xl pl-4 md:pl-4 text-vgreen font-black">
-              Projects 🏋🏼‍️
-            </div>
+          <div class="text-4xl pl-4 md:pl-4 text-vgreen font-black">
+            Projects 🏋🏼‍️
+          </div>
+          <div class="col-start-1">
             <a
               href="https://www.seeai.co.uk/"
             >

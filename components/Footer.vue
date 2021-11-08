@@ -2,7 +2,7 @@
   <div class="flex flex-row justify-center pt-5 pb-5 bg-footer">
     <div class="flex flex-col text-sm justify-center text-black">
       <span class="text-center"> reo [@] seeai.co.uk </span>
-      <span> Made with ❤️ &nbsp; by Reo Ogusu @ 2021</span>
+      <span> Made with ❤️ &nbsp; from Leeds @ 2021</span>
       <span class="text-center">
         <a
           href="https://www.linkedin.com/in/ogureo/"
