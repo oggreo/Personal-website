@@ -20,9 +20,9 @@
           <div
             class="col-span-2 my-auto text-4xl font-black text-vgreen"
           >
-            Hi, I'm Reo 👋
+            Hi,&nbsp;I'm Reo 👋
             <br>
-            I love Web Development and Machine learning !
+            I love Web Development,&nbsp;Machine learning,&nbsp;and Vim!
             <br>
             <br>
             💻  🤖  🥷
