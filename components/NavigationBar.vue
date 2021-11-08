@@ -168,7 +168,9 @@
         </ul>
       </div>
       <div class="h-full hidden md:flex items-center justify-end" />
-      <div class="flex items-center md:hidden">
+      <div
+        class="flex items-center md:hidden"
+      >
         <ul class="p-2 border-r bg-white absolute rounded top-0 left-0 right-0 shadow mt-16 md:mt-16 hidden">
           <li class="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-vgreen focus:text-vgreen focus:outline-none">
             <nuxt-link

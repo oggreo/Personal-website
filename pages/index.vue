@@ -36,7 +36,7 @@
               :icon="['fas', 'laptop-code']"
               :style="{ 'font-size': '50px', 'color': 'white' }"
             />
-            <div class="px-10 md:px-0 mt-5 md:mt-0 md:cols-start-2 md:col-span-5 my-auto text-gray-400 font-black">
+            <div class="px-10 md:px-0 mt-5 md:mt-0 md:cols-start-2 md:col-span-5 my-auto text-gray-400 text-xl font-medium">
               I am a full-stack developer / machine learning engineer based in Leeds, UK. I can do remote work for any where in the world.
             </div>
           </div>
@@ -46,7 +46,7 @@
               :icon="['fab', 'vuejs']"
               :style="{ 'font-size': '50px', 'color': 'white' }"
             />
-            <div class="px-10 md:px-0 mt-5 md:mt-0 md:cols-start-2 md:col-span-5 my-auto text-gray-400 font-black">
+            <div class="px-10 md:px-0 mt-5 md:mt-0 md:cols-start-2 md:col-span-5 my-auto text-gray-400 text-xl font-medium">
               I am a big fan of working with Vue.js (and Nuxt.js). That is my go-to for frontend work.
             </div>
           </div>
@@ -56,7 +56,7 @@
               :icon="['fab', 'python']"
               :style="{ 'font-size': '50px', 'color': 'white' }"
             />
-            <div class="px-10 md:px-0 mt-5 md:mt-0 md:cols-start-2 md:col-span-5 my-auto text-gray-400 font-black">
+            <div class="px-10 md:px-0 mt-5 md:mt-0 md:cols-start-2 md:col-span-5 my-auto text-gray-400 text-xl font-medium">
               For backend, I like to use Python because of my background with the language.
             </div>
           </div>
@@ -66,7 +66,7 @@
               :icon="['fas', 'robot']"
               :style="{ 'font-size': '50px', 'color': 'white' }"
             />
-            <div class="px-10 md:px-0 mt-5 md:mt-0 md:cols-start-2 md:col-span-5 my-auto text-gray-400 font-black">
+            <div class="px-10 md:px-0 mt-5 md:mt-0 md:cols-start-2 md:col-span-5 my-auto text-gray-400 text-xl font-medium">
               For Deep Learning projects, I am a huge advocate for PyTorch.
             </div>
           </div>
