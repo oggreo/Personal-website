@@ -16,7 +16,7 @@ export default {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: 'https://res.cloudinary.com/dk5s8ulry/image/upload/v1636220110/me_hhq0d9.png'
+        href: 'https://res.cloudinary.com/dk5s8ulry/image/upload/v1636376260/me_fby0rl.png'
       }
     ]
   },
