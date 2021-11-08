@@ -18,7 +18,7 @@
             height="600"
           />
           <div
-            class="col-span-2 my-auto text-4xl font-black text-vgreen"
+            class="col-span-2 my-auto text-2xl sm:text-4xl font-black text-vgreen"
           >
             Hi,&nbsp;I'm Reo 👋
             <br>
