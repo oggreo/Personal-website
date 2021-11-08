@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="isDesktop">
     <FontAwesomeIcon
       class="mx-auto my-auto md:col-start-1 follow-icon"
       :icon="['fas', 'pizza-slice']"
@@ -24,6 +24,9 @@ export default {
     }
   },
   computed: {
+    isDesktop () {
+      return this.$device.isDesktop
+    },
     iconStyle () {
       return { 'font-size': '30px', color: this.rgb, position: 'absolute', left: this.xp + 'px', top: this.yp + 'px' }
     },

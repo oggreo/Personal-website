@@ -48,7 +48,9 @@ export default {
     // vue use
     '@vueuse/core/nuxt',
     // composition api
-    '@nuxtjs/composition-api/module'
+    '@nuxtjs/composition-api/module',
+    // device
+    '@nuxtjs/device'
   ],
   fontawesome: {
     icons: {

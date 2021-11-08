@@ -11,11 +11,11 @@
         />
         <div class="col-start-1 md:col-start-2 md:col-span-2 grid grid-rows-2">
           <div class="row-start-1 my-auto font-black text-4xl text-vgreen">
-            Hello !
+            Hello!
           </div>
           <div class="row-start-2 my-auto text-gray-400">
-            I'm Reo, a ramen-loving full-stack developer / researcher with a strong academic background in Computer Science.
-            I am born in Tokyo, Japan 🇯🇵 &nbsp; but I spent my childhood in New York, US 🇺🇸 &nbsp; and now I am based in Leeds, UK 🇬🇧.
+            I'm Reo, a ramen-loving full-stack developer/researcher with a strong academic background in Computer Science.
+            I was born in Tokyo, Japan 🇯🇵 &nbsp; but I spent my childhood in New York, US 🇺🇸 &nbsp; and now I am based in Leeds, UK 🇬🇧.
             As a multi-cultural in-betweener, I find joy in working with international clients from different backgrounds.
           </div>
         </div>
@@ -34,7 +34,7 @@
           <div class="col-span-6 flex justify-start">
             <FontAwesomeIcon
               class="my-auto md:col-start-1"
-              :icon="['fas', 'briefcase']"
+              :icon="[ 'fas', 'briefcase' ]"
               :style="{ 'font-size': '30px', 'color': 'white' }"
             />
             <div class="ml-10 my-auto md:px-0 md:mt-0 md:col-start-1 md:col-span-5">
@@ -78,7 +78,7 @@
                 Jun 2019 - Jul 2019. Tokyo, UK 🇯🇵
               </div>
               <div class="text-2xl text-white font-black">
-                Visiting Researcher / Graduate Entrepreneur
+                Collaborative Researcher
               </div>
               <div class="text-sm text-gray-400 font-black">
                 University of Leeds

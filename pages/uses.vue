@@ -268,7 +268,7 @@
                     <span class="animate-ping relative inline-flex rounded-full h-3 w-3 bg-vgreen" />
                   </div>
                   <div class="ml-4 ">
-                    mongoDB
+                    MongoDB
                   </div>
                 </div>
               </li>

@@ -3,10 +3,10 @@
     <nuxt-img
       :src="imgUrl"
       width="200"
-      class="col-start-1 my-auto mx-auto"
+      class="col-start-1 my-auto mx-left"
     />
     <div
-      class="text-gray-400 col-start-2 col-span-2 my-auto"
+      class="text-gray-400 col-start-2 col-span-2 my-auto mx-left"
     >
       {{ description }}
     </div>
