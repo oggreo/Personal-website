@@ -171,12 +171,18 @@
       <div
         class="flex items-center md:hidden"
       >
-        <ul class="p-2 border-r bg-white absolute rounded top-0 left-0 right-0 shadow mt-16 md:mt-16 hidden">
+        <ul
+          ref="mainList"
+          class="p-2 border-r bg-white absolute rounded top-0 left-0 right-0 shadow mt-16 md:mt-16 hidden"
+        >
           <li class="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-vgreen focus:text-vgreen focus:outline-none">
             <nuxt-link
               to="/"
             >
-              <div class="flex items-center">
+              <div
+                class="flex items-center"
+                @click="closeMenu"
+              >
                 <FontAwesomeIcon
                   class="icon icon-tabler icon-tabler-grid mx-auto my-auto md:col-start-1"
                   :icon="['fas', 'home']"
@@ -211,7 +217,10 @@
             <nuxt-link
               to="/about"
             >
-              <div class="flex items-center">
+              <div
+                class="flex items-center"
+                @click="closeMenu"
+              >
                 <FontAwesomeIcon
                   class="icon icon-tabler icon-tabler-grid mx-auto my-auto md:col-start-1 mr-2"
                   :icon="['fas', 'child']"
@@ -269,7 +278,10 @@
             <nuxt-link
               to="/uses"
             >
-              <div class="flex items-center">
+              <div
+                class="flex items-center"
+                @click="closeMenu"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="icon icon-tabler icon-tabler-code"
@@ -304,6 +316,7 @@
           </li>
         </ul>
         <svg
+          ref="showIcon"
           aria-haspopup="true"
           aria-label="Main Menu"
           xmlns="http://www.w3.org/2000/svg"
@@ -323,6 +336,7 @@
           <line x1="4" y1="16" x2="20" y2="16" />
         </svg>
         <div
+          ref="close"
           class="hidden close-m-menu p-1"
           @click="MenuHandler($event, false)"
         >
@@ -366,6 +380,12 @@ export default {
     dropdownHandler (event) {
       const single = event.currentTarget.getElementsByTagName('ul')[0]
       single.classList.toggle('hidden')
+    },
+    closeMenu () {
+      const menu = this.$refs.close
+      this.$refs.showIcon.classList.remove('hidden')
+      this.$refs.mainList.classList.add('hidden')
+      menu.classList.add('hidden')
     },
     MenuHandler (el, val) {
       const MainList = el.currentTarget.parentElement.getElementsByTagName('ul')[0]
