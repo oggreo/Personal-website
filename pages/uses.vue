@@ -349,7 +349,11 @@
 <script>
 export default {
   name: 'Uses',
-  transition: 'home'
+  transition: 'home',
+  data () {
+    return {
+    }
+  }
 }
 </script>
 
